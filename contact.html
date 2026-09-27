@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تماس با ما — آرتیما استودیو</title>
+<meta name="description" content="درخواست مشاوره برای طراحی داخلی، طراحی ویلا و فضاهای تجاری — آرتیما استودیو، تهران.">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M5 27 16 5l11 22" fill="none" stroke="%23181512" stroke-width="2.4"/><path d="M10.8 19.5h10.4" fill="none" stroke="%23181512" stroke-width="2.4"/></svg>'>
+<link rel="preload" href="assets/fonts/Vazirmatn-Light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Vazirmatn-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-contact">
+
+<a class="skip-link" href="#main">پرش به محتوا</a>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header class="site-header is-scrolled" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.html" class="brand" aria-label="آرتیما استودیو — صفحه اصلی">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27 16 5l11 22" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.8 19.5h10.4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <span class="brand-text">
+        <span class="brand-fa">آرتیما</span>
+        <span class="brand-en">ARTIMA&nbsp;STUDIO</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="ناوبری اصلی">
+      <a href="index.html" class="nav-link">خانه</a>
+      <a href="projects.html" class="nav-link">پروژه‌ها</a>
+      <a href="about.html" class="nav-link">استودیو</a>
+      <a href="contact.html" class="nav-link is-active">تماس</a>
+    </nav>
+    <div class="header-actions">
+      <a href="tel:+982122334455" class="link-underline">۰۲۱–۲۲۳۳۴۴۵۵</a>
+      <button class="burger" id="burger" aria-label="باز کردن منو" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════ MOBILE MENU ═══════════════ -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mm-bg"></div>
+  <nav class="mm-nav" aria-label="منوی موبایل">
+    <a href="index.html" class="mm-link"><span class="mm-num">۰۱</span>خانه</a>
+    <a href="projects.html" class="mm-link"><span class="mm-num">۰۲</span>پروژه‌ها</a>
+    <a href="about.html" class="mm-link"><span class="mm-num">۰۳</span>استودیو</a>
+    <a href="contact.html" class="mm-link"><span class="mm-num">۰۴</span>تماس</a>
+  </nav>
+  <div class="mm-foot">
+    <a href="tel:+982122334455" dir="ltr">+98 21 2233 4455</a>
+    <a href="mailto:hello@artima.studio" dir="ltr">hello@artima.studio</a>
+    <p>تهران، سعادت‌آباد، بلوار دریا</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ═══════════════ PAGE HERO ═══════════════ -->
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker" data-reveal><span class="k-num">تماس</span><span class="k-line" aria-hidden="true"></span>پاسخ در ۲۴ ساعت کاری</p>
+    <h1 class="page-title" data-split>گفت‌وگو را شروع کنیم</h1>
+    <p class="page-lead" data-reveal>فرم زیر را پر کنید تا برای جلسه‌ی شناخت — که مهمان ما هستید — هماهنگ کنیم. اگر عجله دارید، تلفن مستقیم استودیو جواب می‌دهد.</p>
+    <div class="page-hero-rule" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ═══════════════ CONTACT ═══════════════ -->
+<section class="section" style="padding-top:clamp(56px,8vh,96px)">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- form -->
+      <div class="form-block">
+        <h2 data-split>فرم درخواست مشاوره</h2>
+        <p data-reveal>هرچه دقیق‌تر بنویسید، جلسه‌ی اول پربارتر می‌شود. اطلاعات شما نزد ما محفوظ است.</p>
+
+        <form id="consultForm" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="fName">نام و نام خانوادگی *</label>
+              <input id="fName" name="name" type="text" required autocomplete="name" placeholder="مثلاً سارا محمدی">
+            </div>
+            <div class="field">
+              <label for="fPhone">شماره تماس *</label>
+              <input id="fPhone" name="phone" type="tel" required autocomplete="tel" inputmode="tel" placeholder="۰۹۱۲ ··· ····">
+            </div>
+          </div>
+          <div class="field">
+            <label for="fEmail">ایمیل (اختیاری)</label>
+            <input id="fEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" dir="ltr" style="text-align:right">
+          </div>
+
+          <div class="field">
+            <label>نوع پروژه *</label>
+            <div class="choice-set" role="radiogroup" aria-label="نوع پروژه">
+              <label class="choice"><input type="radio" name="ptype" value="مسکونی" checked>مسکونی</label>
+              <label class="choice"><input type="radio" name="ptype" value="ویلایی">ویلایی</label>
+              <label class="choice"><input type="radio" name="ptype" value="تجاری">تجاری</label>
+              <label class="choice"><input type="radio" name="ptype" value="بازسازی">بازسازی</label>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="fBudget">بودجه تقریبی</label>
+              <select id="fBudget" name="budget">
+                <option value="" selected>انتخاب کنید…</option>
+                <option>تا ۵۰۰ میلیون تومان</option>
+                <option>۵۰۰ میلیون تا ۱٫۵ میلیارد تومان</option>
+                <option>۱٫۵ تا ۴ میلیارد تومان</option>
+                <option>بیش از ۴ میلیارد تومان</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="fTime">زمان شروع مطلوب</label>
+              <select id="fTime" name="time">
+                <option value="" selected>انتخاب کنید…</option>
+                <option>در اسرع وقت</option>
+                <option>۱ تا ۳ ماه آینده</option>
+                <option>۳ تا ۶ ماه آینده</option>
+                <option>هنوز مطمئن نیستم</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="fMsg">درباره پروژه‌تان بگویید *</label>
+            <textarea id="fMsg" name="message" required placeholder="فضا کجاست؟ چند متر است؟ چه حسی ازش می‌خواهید؟"></textarea>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-solid"><span class="btn-label">ارسال درخواست</span><span class="btn-ico" aria-hidden="true">←</span></button>
+            <span class="form-note">پاسخ‌گویی: شنبه تا چهارشنبه، ۹ تا ۱۸</span>
+          </div>
+        </form>
+
+        <div class="form-success" id="formSuccess" role="status">
+          <h3>درخواست شما ثبت شد ✓</h3>
+          <p>ممنون که به ما اعتماد کردید. همکاران ما حداکثر تا ۲۴ ساعت کاری آینده برای هماهنگی جلسه‌ی شناخت با شما تماس می‌گیرند.</p>
+        </div>
+      </div>
+
+      <!-- aside -->
+      <aside class="contact-aside" data-reveal>
+        <div class="c-item">
+          <h3>تلفن استودیو</h3>
+          <a href="tel:+982122334455" dir="ltr">+98 21 2233 4455</a>
+          <span class="sub">شنبه تا چهارشنبه — ۹ صبح تا ۶ عصر</span>
+        </div>
+        <div class="c-item">
+          <h3>ایمیل</h3>
+          <a href="mailto:hello@artima.studio" dir="ltr">hello@artima.studio</a>
+          <span class="sub">برای همکاری و رسانه: press@artima.studio</span>
+        </div>
+        <div class="c-item">
+          <h3>نشانی دفتر</h3>
+          <p>تهران، سعادت‌آباد، بلوار دریا،<br>کوچه پنجم، پلاک ۱۲، واحد ۳</p>
+          <span class="sub">بازدید با هماهنگی قبلی</span>
+        </div>
+        <div class="c-social">
+          <a href="#" class="link-underline">اینستاگرام</a>
+          <a href="#" class="link-underline">لینکدین</a>
+          <a href="#" class="link-underline">پینترست</a>
+        </div>
+      </aside>
+
+    </div>
+
+    <!-- ═══════════ MAP ═══════════ -->
+    <div class="map-block">
+      <div class="map-head" data-reveal>
+        <div>
+          <p class="kicker"><span class="k-num">۰۲</span><span class="k-line" aria-hidden="true"></span>روی نقشه</p>
+          <h2>دفتر ما، قلب سعادت‌آباد</h2>
+        </div>
+        <a href="https://www.google.com/maps?q=35.7796,51.3770" target="_blank" rel="noopener" class="link-underline">مسیریابی در نقشه</a>
+      </div>
+      <div class="map-frame" data-reveal>
+        <svg viewBox="0 0 1200 520" role="img" aria-label="نقشه موقعیت دفتر آرتیما استودیو در سعادت‌آباد">
+          <rect width="1200" height="520" fill="#FBF9F6"/>
+          <!-- blocks -->
+          <g fill="#F0EBE2">
+            <rect x="40" y="40" width="200" height="130" rx="3"/>
+            <rect x="280" y="40" width="260" height="130" rx="3"/>
+            <rect x="580" y="40" width="180" height="130" rx="3"/>
+            <rect x="840" y="40" width="320" height="130" rx="3"/>
+            <rect x="40" y="230" width="200" height="130" rx="3"/>
+            <rect x="840" y="230" width="150" height="130" rx="3"/>
+            <rect x="1030" y="230" width="130" height="130" rx="3"/>
+            <rect x="40" y="420" width="200" height="70" rx="3"/>
+            <rect x="280" y="420" width="480" height="70" rx="3"/>
+            <rect x="840" y="420" width="320" height="70" rx="3"/>
+          </g>
+          <!-- secondary streets -->
+          <g stroke="#E4DDCE" stroke-width="2">
+            <line x1="0" y1="197" x2="1200" y2="197"/>
+            <line x1="0" y1="388" x2="1200" y2="388"/>
+            <line x1="260" y1="0" x2="260" y2="520"/>
+            <line x1="560" y1="0" x2="560" y2="520"/>
+            <line x1="780" y1="0" x2="780" y2="520"/>
+            <line x1="1020" y1="0" x2="1020" y2="520"/>
+          </g>
+          <!-- main avenues -->
+          <g stroke="#D8CFBC" stroke-width="7" stroke-linecap="round">
+            <line x1="0" y1="197" x2="1200" y2="197"/>
+            <line x1="560" y1="0" x2="560" y2="520"/>
+          </g>
+          <g stroke="#D8CFBC" stroke-width="3" stroke-linecap="round">
+            <path d="M0 470 C 200 420, 320 300, 420 180 S 640 40, 760 0" fill="none"/>
+            <line x1="880" y1="520" x2="1050" y2="0"/>
+          </g>
+          <!-- park -->
+          <rect x="580" y="230" width="240" height="130" rx="6" fill="#E8E4D4"/>
+          <g fill="#D9D2BC">
+            <circle cx="630" cy="270" r="14"/><circle cx="680" cy="300" r="18"/>
+            <circle cx="740" cy="265" r="12"/><circle cx="700" cy="335" r="10"/>
+          </g>
+          <text x="700" y="378" text-anchor="middle" font-size="12" fill="#948B7D" font-family="Vazirmatn">پارک بانوان سعادت‌آباد</text>
+          <!-- street labels -->
+          <text x="112" y="192" font-size="12" fill="#948B7D" font-family="Vazirmatn" text-anchor="middle">بلوار دریا</text>
+          <text x="548" y="90" font-size="12" fill="#948B7D" font-family="Vazirmatn" text-anchor="middle" transform="rotate(-90 548 90)">بلوار فرهنگ</text>
+          <!-- pin -->
+          <g id="mapPin" transform="translate(640 176)">
+            <circle class="map-pin-pulse" r="17" fill="#9C6B44" opacity=".5"/>
+            <circle r="9" fill="#9C6B44"/>
+            <circle r="3.6" fill="#FBF9F6"/>
+            <line x1="0" y1="10" x2="0" y2="52" stroke="#9C6B44" stroke-width="1.4"/>
+          </g>
+          <!-- compass + scale -->
+          <g transform="translate(60 452)" stroke="#948B7D" fill="none">
+            <circle r="17"/>
+            <path d="M0 -11 L4 5 L0 2 L-4 5 Z" fill="#5E574C" stroke="none"/>
+            <text y="-24" text-anchor="middle" font-size="11" fill="#948B7D" stroke="none" font-family="Archivo">N</text>
+          </g>
+          <g transform="translate(1060 470)" stroke="#948B7D">
+            <line x1="0" y1="0" x2="100" y2="0"/>
+            <line x1="0" y1="-5" x2="0" y2="5"/>
+            <line x1="50" y1="-3" x2="50" y2="3"/>
+            <line x1="100" y1="-5" x2="100" y2="5"/>
+            <text x="50" y="-10" text-anchor="middle" font-size="10" fill="#948B7D" stroke="none" font-family="Archivo">200 m</text>
+          </g>
+        </svg>
+        <div class="map-badge">
+          <b>آرتیما استودیو</b>
+          <p>سعادت‌آباد، بلوار دریا، کوچه پنجم، پلاک ۱۲ — طبقه ۳</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="آرتیما استودیو">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27 16 5l11 22" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.8 19.5h10.4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          <span class="brand-text"><span class="brand-fa">آرتیما</span><span class="brand-en">ARTIMA&nbsp;STUDIO</span></span>
+        </a>
+        <p class="footer-tag">استودیو معماری و طراحی داخلی — تهران</p>
+        <p class="footer-serif" lang="en" dir="ltr">spaces that tell your story</p>
+      </div>
+      <nav class="footer-col" aria-label="ناوبری فوتر">
+        <h4>استودیو</h4>
+        <a href="index.html">خانه</a>
+        <a href="projects.html">پروژه‌ها</a>
+        <a href="about.html">درباره ما</a>
+        <a href="contact.html">تماس</a>
+      </nav>
+      <nav class="footer-col" aria-label="خدمات">
+        <h4>خدمات</h4>
+        <a href="contact.html">طراحی داخلی منزل</a>
+        <a href="contact.html">طراحی ویلا</a>
+        <a href="contact.html">فضاهای تجاری</a>
+        <a href="contact.html">بازسازی ساختمان</a>
+      </nav>
+      <div class="footer-col">
+        <h4>تماس</h4>
+        <p>تهران، سعادت‌آباد، بلوار دریا،<br>کوچه پنجم، پلاک ۱۲، واحد ۳</p>
+        <a href="tel:+982122334455" dir="ltr">+98 21 2233 4455</a>
+        <a href="mailto:hello@artima.studio" dir="ltr">hello@artima.studio</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© ۱۴۰۴ آرتیما استودیو — همه حقوق محفوظ است.</p>
+      <div class="footer-social">
+        <a href="#" class="link-underline">اینستاگرام</a>
+        <a href="#" class="link-underline">لینکدین</a>
+        <a href="#" class="link-underline">پینترست</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

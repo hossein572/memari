@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>پروژه‌ها — آرتیما استودیو</title>
+<meta name="description" content="آرشیو پروژه‌های آرتیما استودیو؛ پروژه‌های مسکونی، ویلایی و تجاری — از کانسپت تا اجرا.">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M5 27 16 5l11 22" fill="none" stroke="%23181512" stroke-width="2.4"/><path d="M10.8 19.5h10.4" fill="none" stroke="%23181512" stroke-width="2.4"/></svg>'>
+<link rel="preload" href="assets/fonts/Vazirmatn-Light.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Vazirmatn-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-projects">
+
+<a class="skip-link" href="#main">پرش به محتوا</a>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ═══════════════ HEADER ═══════════════ -->
+<header class="site-header is-scrolled" id="siteHeader">
+  <div class="header-inner">
+    <a href="index.html" class="brand" aria-label="آرتیما استودیو — صفحه اصلی">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27 16 5l11 22" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.8 19.5h10.4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <span class="brand-text">
+        <span class="brand-fa">آرتیما</span>
+        <span class="brand-en">ARTIMA&nbsp;STUDIO</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="ناوبری اصلی">
+      <a href="index.html" class="nav-link">خانه</a>
+      <a href="projects.html" class="nav-link is-active">پروژه‌ها</a>
+      <a href="about.html" class="nav-link">استودیو</a>
+      <a href="contact.html" class="nav-link">تماس</a>
+    </nav>
+    <div class="header-actions">
+      <a href="contact.html" class="btn btn-outline btn-sm magnetic"><span class="btn-label">شروع پروژه</span><span class="btn-ico" aria-hidden="true">←</span></a>
+      <button class="burger" id="burger" aria-label="باز کردن منو" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════ MOBILE MENU ═══════════════ -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mm-bg"></div>
+  <nav class="mm-nav" aria-label="منوی موبایل">
+    <a href="index.html" class="mm-link"><span class="mm-num">۰۱</span>خانه</a>
+    <a href="projects.html" class="mm-link"><span class="mm-num">۰۲</span>پروژه‌ها</a>
+    <a href="about.html" class="mm-link"><span class="mm-num">۰۳</span>استودیو</a>
+    <a href="contact.html" class="mm-link"><span class="mm-num">۰۴</span>تماس</a>
+  </nav>
+  <div class="mm-foot">
+    <a href="tel:+982122334455" dir="ltr">+98 21 2233 4455</a>
+    <a href="mailto:hello@artima.studio" dir="ltr">hello@artima.studio</a>
+    <p>تهران، سعادت‌آباد، بلوار دریا</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ═══════════════ PAGE HERO ═══════════════ -->
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker" data-reveal><span class="k-num">آرشیو</span><span class="k-line" aria-hidden="true"></span>۱۴۰۱ تا ۱۴۰۴</p>
+    <h1 class="page-title" data-split>پروژه‌های منتخب</h1>
+    <p class="page-lead" data-reveal>مجموعه‌ای از خانه‌ها، ویلاها و فضاهای تجاری که در این سال‌ها روایتشان کرده‌ایم — از اولین خطِ اسکیس تا آخرین گلدان روی کنسول.</p>
+    <div class="page-hero-rule" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ═══════════════ FILTER + GRID ═══════════════ -->
+<div class="filters" id="filters">
+  <div class="container" style="display:flex;align-items:center;gap:clamp(18px,3vw,40px);flex-wrap:wrap">
+    <button class="filter-btn is-active" data-filter="all">همه</button>
+    <button class="filter-btn" data-filter="residential">مسکونی</button>
+    <button class="filter-btn" data-filter="commercial">تجاری</button>
+    <button class="filter-btn" data-filter="villa">ویلایی</button>
+    <span class="filters-count">۸ پروژه</span>
+  </div>
+</div>
+
+<section class="proj-archive section" id="main-archive" style="padding-top:clamp(40px,6vh,72px)">
+  <div class="container">
+    <div class="proj-grid">
+
+      <a href="#" class="proj-card tall" data-cat="residential" data-reveal="img"
+         data-title="آپارتمان زعفرانیه" data-loc="تهران، زعفرانیه" data-cat-label="مسکونی"
+         data-year="۱۴۰۳" data-area="۲۱۰ متر مربع" data-style="مینیمال گرم"
+         data-desc="بازطراحی کامل یک آپارتمان دهه‌هفتادی در زعفرانیه. دیوارهای جداکننده نشیمن و آشپزخانه حذف شد تا نور غربی به عمق فضای زندگی برسد؛ دیوار تراورتن، قفسه‌چوب بلوط و پارچه‌های لینن، اسکلت روایت تازه‌ی خانه شدند.">
+        <figure class="proj-media"><img src="assets/img/p1.jpg" alt="نشیمن آپارتمان زعفرانیه" loading="lazy" width="1200" height="1500"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>آپارتمان زعفرانیه</h3><p>تهران</p></div>
+          <div class="proj-info"><span class="chip">مسکونی</span><span class="proj-year">۱۴۰۳</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="proj-card" data-cat="villa" data-reveal="img"
+         data-title="ویلای آرکا" data-loc="لواسان، تهران" data-cat-label="ویلایی"
+         data-year="۱۴۰۲" data-area="۴۸۰ متر مربع زیربنا" data-style="منشوری — بروتالیسم گرم"
+         data-desc="ویلایی در شیب جنوبی لواسان با دو حجم هم‌پوشان از بتن و تراورتن. استخر بی‌نهایت، انعکاس نمای ساختمان را در آبی ساعت غروب ضرب می‌کند و مرز میان معماری و منظر را محو می‌سازد.">
+        <figure class="proj-media"><img src="assets/img/p2.jpg" alt="نمای غروب ویلای آرکا" loading="lazy" width="1200" height="800"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>ویلای آرکا</h3><p>لواسان</p></div>
+          <div class="proj-info"><span class="chip">ویلایی</span><span class="proj-year">۱۴۰۲</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="proj-card" data-cat="commercial" data-reveal="img"
+         data-title="کافه‌گالری رستاک" data-loc="تهران، کریم‌خان" data-cat-label="تجاری"
+         data-year="۱۴۰۳" data-area="۱۶۵ متر مربع" data-style="ارگانیک — طاق گچی"
+         data-desc="تبدیل یک انبار قدیمی به کافه‌گالری با طاق‌های گچی دست‌ساز. پیشخان میکروسمنت، نورپردازی گرم و دیوارهای آهکی، بستری شده‌اند برای نمایش آثار هنرمندان جوان در دل ریتم روزمره‌ی قهوه.">
+        <figure class="proj-media"><img src="assets/img/p3.jpg" alt="کافه گالری رستاک" loading="lazy" width="1200" height="800"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>کافه‌گالری رستاک</h3><p>کریم‌خان</p></div>
+          <div class="proj-info"><span class="chip">تجاری</span><span class="proj-year">۱۴۰۳</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="proj-card tall" data-cat="residential" data-reveal="img"
+         data-title="پنت‌هاوس الهیه" data-loc="تهران، الهیه" data-cat-label="مسکونی"
+         data-year="۱۴۰۱" data-area="۳۲۰ متر مربع" data-style="لوکس آرام (Quiet Luxury)"
+         data-desc="آشپزخانه و ناهارخوریِ پنت‌هاوسی رو به پارک؛ جزیره‌ی یکپارچه‌ی تراورتن، کابینت‌های چوب شیاردار و اسکای‌لایت خطی که نور را مثل قلمی روی سقف می‌کشد. پروژه‌ای که با آن جایزه‌ی طراحی داخلی سال را گرفتیم.">
+        <figure class="proj-media"><img src="assets/img/p4.jpg" alt="آشپزخانه پنت‌هاوس الهیه" loading="lazy" width="1200" height="1500"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>پنت‌هاوس الهیه</h3><p>تهران</p></div>
+          <div class="proj-info"><span class="chip">مسکونی</span><span class="proj-year">۱۴۰۱</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="proj-card" data-cat="commercial" data-reveal="img"
+         data-title="بوتیک سرو" data-loc="تهران، فرشته" data-cat-label="تجاری"
+         data-year="۱۴۰۲" data-area="۱۴۰ متر مربع" data-style="مینیمال — طاق‌دار"
+         data-desc="بوتیک پوشاک با طاق‌های گچی و نور پنهان؛ ریل‌های استیل مشکی و سکوهای تراورتن، لباس‌ها را مثل آثار یک گالری کوچک به نمایش می‌گذارند. پروژه‌ای درباره‌ی کم‌گویی و دقت.">
+        <figure class="proj-media"><img src="assets/img/p5.jpg" alt="بوتیک سرو" loading="lazy" width="1200" height="800"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>بوتیک سرو</h3><p>فرشته</p></div>
+          <div class="proj-info"><span class="chip">تجاری</span><span class="proj-year">۱۴۰۲</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="proj-card tall" data-cat="villa" data-reveal="img"
+         data-title="ویلای مهتاب" data-loc="چالوس، مازندران" data-cat-label="ویلایی"
+         data-year="۱۴۰۱" data-area="۵۶۰ متر مربع زیربنا" data-style="هم‌زیستی با جنگل"
+         data-desc="نشیمنی شیشه‌ای رو به قله‌های البرز؛ شومینه‌ی خطی از سنگ تیره، سقف چوب گرم و رابط بی‌واسطه‌ی خانه با تراس سنگی. ویلا طوری نشسته که هیچ درختی قطع نشود.">
+        <figure class="proj-media"><img src="assets/img/p6.jpg" alt="نشیمن ویلای مهتاب با نمای کوهستان" loading="lazy" width="1200" height="1500"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>ویلای مهتاب</h3><p>چالوس</p></div>
+          <div class="proj-info"><span class="chip">ویلایی</span><span class="proj-year">۱۴۰۱</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="proj-card" data-cat="commercial" data-reveal="img"
+         data-title="لابی اداری آرمان" data-loc="تهران، ونک" data-cat-label="تجاری"
+         data-year="۱۴۰۳" data-area="۲۸۰ متر مربع" data-style="معماری اداری معاصر"
+         data-desc="بازطراحی لابی یک برج اداری در ونک؛ میز پذیرش یکپارچه از تراورتن، پارتیشن‌های فلز و شیشه، و پلکان معلق مجسمه‌وار که به‌تنهایی امضای فضا است.">
+        <figure class="proj-media"><img src="assets/img/p7.jpg" alt="لابی اداری آرمان" loading="lazy" width="1200" height="800"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>لابی اداری آرمان</h3><p>ونک</p></div>
+          <div class="proj-info"><span class="chip">تجاری</span><span class="proj-year">۱۴۰۳</span></div>
+        </div>
+      </a>
+
+      <a href="#" class="proj-card" data-cat="residential" data-reveal="img"
+         data-title="بازسازی سعادت‌آباد" data-loc="تهران، سعادت‌آباد" data-cat-label="مسکونی — بازسازی"
+         data-year="۱۴۰۲" data-area="۱۸۵ متر مربع" data-style="نوسازی کامل"
+         data-desc="نوسازی کامل یک واحد خواب‌مانده‌ی دهه‌هشتادی؛ پلکان گچی منحنی تازه ساخته شد تا نور اسکای‌لایت را مثل آب از طبقه بالا پایین بریزد. تمام کار در چهار ماه، ساکن‌درجا انجام شد.">
+        <figure class="proj-media"><img src="assets/img/cta.jpg" alt="پلکان گچی بازسازی سعادت‌آباد" loading="lazy" width="1200" height="800"></figure>
+        <div class="proj-meta">
+          <div class="proj-titles"><h3>بازسازی سعادت‌آباد</h3><p>سعادت‌آباد</p></div>
+          <div class="proj-info"><span class="chip">مسکونی</span><span class="proj-year">۱۴۰۲</span></div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ CTA ═══════════════ -->
+<section class="cta" style="min-height:70svh">
+  <div class="cta-media" data-parallax="0.1"><img src="assets/img/cta.jpg" alt="" loading="lazy" width="1600" height="1000"></div>
+  <div class="cta-content container">
+    <p class="cta-kicker" data-reveal>پروژه بعدی، پروژه شماست</p>
+    <h2 class="cta-title"><span class="ht-line"><span>بیایید فضای شما را</span></span><span class="ht-line"><span>با هم روایت کنیم</span></span></h2>
+    <div class="cta-actions" data-reveal>
+      <a href="contact.html" class="btn btn-solid magnetic"><span class="btn-label">درخواست مشاوره</span><span class="btn-ico" aria-hidden="true">←</span></a>
+      <a href="tel:+982122334455" class="cta-tel" dir="ltr">+98 21 2233 4455</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════ PROJECT MODAL ═══════════════ -->
+<dialog class="proj-modal" id="projModal" aria-labelledby="pmTitle">
+  <div class="pm-sheet">
+    <figure class="pm-media"><img src="" alt=""></figure>
+    <div class="pm-body">
+      <div class="pm-head">
+        <div>
+          <h2 class="pm-title" id="pmTitle"></h2>
+          <p class="pm-loc"></p>
+        </div>
+        <button class="pm-close" aria-label="بستن">✕</button>
+      </div>
+      <div class="pm-specs">
+        <div class="pm-spec"><b>دسته</b><span id="pmCat"></span></div>
+        <div class="pm-spec"><b>سال</b><span id="pmYear"></span></div>
+        <div class="pm-spec"><b>متراژ</b><span id="pmArea"></span></div>
+        <div class="pm-spec"><b>سبک</b><span id="pmStyle"></span></div>
+      </div>
+      <p class="pm-desc"></p>
+      <div class="pm-actions">
+        <a href="contact.html" class="btn btn-solid"><span class="btn-label">پروژه‌ای مشابه دارم</span><span class="btn-ico" aria-hidden="true">←</span></a>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="آرتیما استودیو">
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27 16 5l11 22" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.8 19.5h10.4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          <span class="brand-text"><span class="brand-fa">آرتیما</span><span class="brand-en">ARTIMA&nbsp;STUDIO</span></span>
+        </a>
+        <p class="footer-tag">استودیو معماری و طراحی داخلی — تهران</p>
+        <p class="footer-serif" lang="en" dir="ltr">spaces that tell your story</p>
+      </div>
+      <nav class="footer-col" aria-label="ناوبری فوتر">
+        <h4>استودیو</h4>
+        <a href="index.html">خانه</a>
+        <a href="projects.html">پروژه‌ها</a>
+        <a href="about.html">درباره ما</a>
+        <a href="contact.html">تماس</a>
+      </nav>
+      <nav class="footer-col" aria-label="خدمات">
+        <h4>خدمات</h4>
+        <a href="contact.html">طراحی داخلی منزل</a>
+        <a href="contact.html">طراحی ویلا</a>
+        <a href="contact.html">فضاهای تجاری</a>
+        <a href="contact.html">بازسازی ساختمان</a>
+      </nav>
+      <div class="footer-col">
+        <h4>تماس</h4>
+        <p>تهران، سعادت‌آباد، بلوار دریا،<br>کوچه پنجم، پلاک ۱۲، واحد ۳</p>
+        <a href="tel:+982122334455" dir="ltr">+98 21 2233 4455</a>
+        <a href="mailto:hello@artima.studio" dir="ltr">hello@artima.studio</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© ۱۴۰۴ آرتیما استودیو — همه حقوق محفوظ است.</p>
+      <div class="footer-social">
+        <a href="#" class="link-underline">اینستاگرام</a>
+        <a href="#" class="link-underline">لینکدین</a>
+        <a href="#" class="link-underline">پینترست</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
